@@ -13,7 +13,6 @@ passwords = ["hello123", "cat", "secure2024", "password"]
 * Filter passwords that are at least 8 characters long.
 * Introduce additional security rules to simulate real-world password policies.
 
-
 ## Hypothesis and how to validate?
 * Hypothesis:
 Most user-created passwords fail to meet minimal length and numeric requirements.
@@ -24,9 +23,13 @@ Run the program and compare how many passwords pass or fail the checks.
 * Project Plan
 
 1.) Create a password list.
+
 2.) Check each password’s length.
+
 3.) Verify the inclusion of numbers.
+
 4.) Store and print passwords that pass all checks.
+
 5.) Extend functionality by defining a custom password policy.
 
 * Code Implementation:
